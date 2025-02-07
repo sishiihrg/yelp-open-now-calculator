@@ -1,7 +1,6 @@
-import { Box, TextField } from "@mui/material";
+import { Box, TextField, CssBaseline } from "@mui/material";
 import DayAndTime from "./components/DayAndTime";
 import { useState } from "react";
-import { CssBaseline } from "@mui/material"; // Add CssBaseline for consistent styling
 
 function App() {
     const [calculatedParameter, setCalculatedParameter] = useState("");
